@@ -1,2 +1,2 @@
-# pythonpractice
+# Python Practice
 Introduction to python programming 
