@@ -1,7 +1,0 @@
-IntrestRate = float(input('What is the intrest rate'))
-NPaymentPY = int(input('How many installment per year you going to pay'))
-NOYears = int(input('In how many years you want to pay the money'))
-Principal = int(input('What is the total amount you took form bank'))
-A= IntrestRate * (Principal/NPaymentPY)
-B= 1- (((IntrestRate/NPaymentPY)+1)** (-NPaymentPY * NOYears))
-print(A/B)
