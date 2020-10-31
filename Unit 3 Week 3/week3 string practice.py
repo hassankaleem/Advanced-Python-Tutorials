@@ -1,7 +1,8 @@
 ## use len() to  check string lenght and fect the value stored in string over index.
 val="My name is Hassan Kaleem"
-for i in range(0,len(val)):
-    print(val[i])
+for index in range(0,len(val)):
+    print(val[index],index,type(index))
+##    print(index)
 
 
 def findLen(str): 
@@ -13,3 +14,9 @@ def findLen(str):
   
 str = "hello dear"
 print(findLen(str))
+
+
+fruits = ["mango","apple","banana"]
+for index in fruits:
+    print(index)
+    print(type(index))
