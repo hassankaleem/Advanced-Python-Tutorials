@@ -6,11 +6,10 @@
 
 def my_fun(my_list):
     counter = len(my_list)
-    print(counter)
+    print("total length of list = ",counter)
     for index in range(counter):
         counter-=1
-        print(index,my_list[counter])
-        
+        print('current index',index,my_list[counter])      
 
 my_fun(['hassan','salman','faizan','sarmad','ahmad'])
 
