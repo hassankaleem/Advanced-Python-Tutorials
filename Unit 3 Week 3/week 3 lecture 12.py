@@ -12,4 +12,7 @@ def my_fun(my_list):
         print(index,my_list[counter])
         
 
-my_fun(['hassan','salman','faizan'])
+my_fun(['hassan','salman','faizan','sarmad','ahmad'])
+
+
+
