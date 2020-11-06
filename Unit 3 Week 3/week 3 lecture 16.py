@@ -7,6 +7,7 @@ print(type(dic))
 
 
 ##tupple[0]=4
+##print(type(tupple))
 
 
 list.extend = [5,7]
