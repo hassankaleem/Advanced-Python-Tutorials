@@ -1,3 +1,6 @@
+list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
+list1.append(700)
+
 def my_fun():
     array = []
     i=1
@@ -10,10 +13,12 @@ def my_fun():
     if del_num=='Y':
         num = int(input("enter the number you want to delete"))
         array.remove(num)
-        print(avrg(array))
-    else:
-        print(avrg(array))
+    print(avrg(array))
         
+##        print(avrg(array))
+##    else:
+##        print(avrg(array))
+    
         
 
 def avrg(par_list):
