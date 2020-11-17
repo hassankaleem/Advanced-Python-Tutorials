@@ -1,9 +1,22 @@
 ## use len() to  check string lenght and fect the value stored in string over index.
+
+## is this iteratring by index ?
+
 val="My name is Hassan Kaleem"
 for index in range(0,len(val)):
     print(val[index],index,type(index))
-##    print(index)
 
+# is this iteration the valuse of string ?
+
+val="My name is Hassan Kaleem"
+for index in val:
+    print(index,type(index))
+
+
+
+
+
+fruits = ["mango","apple","banana"]
 
 def findLen(str): 
     counter = 0    
@@ -14,9 +27,3 @@ def findLen(str):
   
 str = "hello dear"
 print(findLen(str))
-
-
-fruits = ["mango","apple","banana"]
-for index in fruits:
-    print(index)
-    print(type(index))
