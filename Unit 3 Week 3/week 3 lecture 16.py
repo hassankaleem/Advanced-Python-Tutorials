@@ -10,4 +10,4 @@ print(type(dic))
 ##print(type(tupple))
 
 
-list.extend = [5,7]
+##list.extend = [5,7]

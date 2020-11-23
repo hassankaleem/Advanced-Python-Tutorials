@@ -27,3 +27,8 @@ def findLen(str):
   
 str = "hello dear"
 print(findLen(str))
+
+
+
+
+

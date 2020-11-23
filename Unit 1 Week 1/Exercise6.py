@@ -7,4 +7,3 @@ def get_cicle_area(raduis):
 print(get_cicle_area(var))
 print(math.pi)
 print(var)
-

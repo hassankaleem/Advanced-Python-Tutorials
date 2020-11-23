@@ -8,7 +8,7 @@ def h_num():
     a = num[0]
     b = num[1]
 ## Search from the list of 10 numbers which one is greater.
-    for var in range(0,10):
+    for var in range(0,9):
         if(a>b):
             print('a is greater than b',a,b)
             if(var<9):
@@ -19,3 +19,5 @@ def h_num():
             if(var<9):
                 a= num[var+2]
             print('Largest value in 10 numbers is',b)
+
+
